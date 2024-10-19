@@ -1,11 +1,7 @@
 :root {
     --primary-color: #0a00c0;
-    --secondary-color: linear-gradient(to right, #6200ff, #0077ff, #6200ff);
-    --tertiary-color: linear-gradient(to right, #6200ff, #0026ff);
-}
-
-.bg-darkblue {
-    background-color: var(--primary-color);
+    --secondary-color: linear-gradient(to right, #4c00ff, #0077ff, #6200ff);
+    --tertiary-color: linear-gradient(to right, #1100ff, #0026ff);
 }
 
 footer {
