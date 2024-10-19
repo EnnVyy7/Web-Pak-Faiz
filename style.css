@@ -1,5 +1,7 @@
 :root {
-    --primary-color: #6993d2;
+    --primary-color: #0a00c0;
+    --secondary-color: linear-gradient(to right, #6200ff, #0077ff, #6200ff);
+    --tertiary-color: linear-gradient(to right, #6200ff, #0026ff);
 }
 
 .bg-darkblue {
@@ -38,6 +40,10 @@ footer {
     display: none;
 }
 
+.bg-tkj {
+    background: var(--secondary-color);
+}
+
 @media (max-width: 768px) {
     .logo-dapur {
         display: none; /* Sembunyikan logo */
@@ -46,9 +52,14 @@ footer {
     .logo-dapur2 {
         display: block;
     }
+
+    .bg-tkj {
+        background: var(--tertiary-color);
+    }
 }
 
 #contact {
     min-height: 200px;
     flex-direction: column;
 }
+
